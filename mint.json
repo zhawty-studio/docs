@@ -25,12 +25,12 @@
 		{
 			"name": "GitHub",
 			"icon": "github",
-			"url": "https://github.com/hopinc"
+			"url": "https://github.com/zhawty-studio"
 		},
 		{
 			"name": "Community",
 			"icon": "discord",
-			"url": "https://discord.com/invite/hop"
+			"url": "https://discord.gg/fNcNZc2wmD"
 		}
 	],
 	"navigation": [
@@ -157,8 +157,8 @@
 		}
 	],
 	"footerSocials": {
-		"twitter": "https://twitter.com/joinhop",
-		"github": "https://github.com/hopinc",
-		"discord": "https://discord.gg/hop"
+		"twitter": "https://twitter.com/zhawtystudio",
+		"github": "https://github.com/zhawty-studio",
+		"discord": "https://discord.gg/fNcNZc2wmD"
 	}
 }
