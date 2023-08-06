@@ -12,11 +12,11 @@
 		"ultraLight": "#EEE7FF",
 		"ultraDark": "#431B9F"
 	},
-	"menu": [
+	"navigation": [
 		{
-			"name": "Configurações de Scripts",
-			"path": "/scripts-config",
-			"menu": [
+			"group": "Configurações de Scripts",
+			"pages": [
+				"/scripts-config",
 				{
 					"name": "Drugtable",
 					"path": "/scripts-config/drugtable"
