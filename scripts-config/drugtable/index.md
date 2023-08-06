@@ -1,0 +1,3 @@
+<Note>
+	Configuração da Drugtable
+</Note>
