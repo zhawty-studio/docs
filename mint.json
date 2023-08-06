@@ -1,10 +1,15 @@
 {
-	"name": "Zhawty Studio Docs",
+	"name": "Hop",
 	"logo": {
 		"light": "/logo/light.svg",
 		"dark": "/logo/dark.svg"
 	},
 	"favicon": "/favicon.svg",
+	"analytics": {
+		"gtm": {
+			"tagId": "GTM-PWWFBQW"
+		}
+	},
 	"colors": {
 		"primary": "#8F64F2",
 		"light": "#BFA6F9",
@@ -12,28 +17,148 @@
 		"ultraLight": "#EEE7FF",
 		"ultraDark": "#431B9F"
 	},
+	"topbarCtaButton": {
+		"name": "Console",
+		"url": "https://console.hop.io"
+	},
+	"anchors": [
+		{
+			"name": "GitHub",
+			"icon": "github",
+			"url": "https://github.com/hopinc"
+		},
+		{
+			"name": "Community",
+			"icon": "discord",
+			"url": "https://discord.com/invite/hop"
+		}
+	],
 	"navigation": [
 		{
-			"group": "Configurações de Scripts",
+			"group": "Getting Started",
 			"pages": [
-				"/scripts-config",
+				"getting-started/introduction",
+				"ignite/deploying",
 				{
-					"name": "Drugtable",
-					"path": "/scripts-config/drugtable"
+					"group": "Quickstarts",
+					"pages": [
+						"getting-started/quickstarts/express",
+						"getting-started/quickstarts/redis",
+						"getting-started/quickstarts/elixir-cluster"
+					]
+				}
+			]
+		},
+		{
+			"group": "CLI",
+			"pages": ["cli/overview", "cli/completions", "cli/ci"]
+		},
+		{
+			"group": "Ignite",
+			"pages": [
+				"ignite/overview",
+				"ignite/deploying",
+				"ignite/gateways",
+				"ignite/private-networking",
+				"ignite/volumes",
+				"ignite/health-checks",
+				"ignite/project-secrets",
+				"ignite/images",
+				"ignite/builds",
+				"ignite/port-forwarding",
+				{
+					"group": "Language Support",
+					"pages": [
+						"ignite/languages/node",
+						"ignite/languages/python",
+						"ignite/languages/elixir",
+						"ignite/languages/rust",
+						"ignite/languages/go"
+					]
+				}
+			]
+		},
+		{
+			"group": "Reference",
+			"pages": [
+				"reference/regions",
+				"reference/rest-api",
+				"reference/project-tokens",
+				"reference/billing"
+			]
+		},
+		{
+			"group": "SDKs",
+			"pages": [
+				"sdks/overview",
+				{
+					"group": "Client Side",
+					"pages": ["sdks/client/js", "sdks/client/react"]
+				},
+				{
+					"group": "Server Side",
+					"pages": [
+						"sdks/server/js",
+						{
+							"group": "Go",
+							"pages": ["sdks/server/go-api", "sdks/server/go-leap"]
+						}
+					]
+				}
+			]
+		},
+		{
+			"group": "Other Products",
+			"pages": [
+				{
+					"group": "Channels",
+					"pages": [
+						"other-products/channels/overview",
+						"other-products/channels/channel-state",
+						"other-products/channels/tokens",
+						{
+							"group": "Reference",
+							"pages": [
+								"other-products/channels/reference/react",
+								"other-products/channels/reference/creating-channels",
+								"other-products/channels/reference/updating-channel-state",
+								"other-products/channels/reference/sending-messages",
+								"other-products/channels/reference/channel-stats"
+							]
+						},
+						{
+							"group": "Internals",
+							"pages": [
+								"other-products/channels/internals/leap",
+								"other-products/channels/internals/payloads",
+								"other-products/channels/internals/atlas-protocol"
+							]
+						}
+					]
+				},
+				{
+					"group": "Pipe",
+					"pages": [
+						"other-products/pipe/overview",
+						"other-products/pipe/getting-started",
+						"other-products/pipe/client-implementation",
+						"other-products/pipe/streaming-to-pipe",
+						{
+							"group": "Protocols",
+							"pages": ["other-products/pipe/llhls"]
+						},
+						{
+							"group": "API Reference",
+							"pages": ["other-products/pipe/room"]
+						}
+					]
 				}
 			]
 		}
 	],
-	"pages": [
-		{
-			"name": "Configurações de Scripts",
-			"path": "/scripts-config",
-			"content": "Esta página contém informações sobre as configurações de scripts em nosso aplicativo."
-		},
-		{
-			"name": "Drugtable",
-			"path": "/scripts-config/drugtable",
-			"content": "Esta página contém informações sobre a tabela de medicamentos em nosso aplicativo."
-		}
-	]
+	"footerSocials": {
+		"twitter": "https://twitter.com/joinhop",
+		"github": "https://github.com/hopinc",
+		"discord": "https://discord.gg/hop"
+	}
 }

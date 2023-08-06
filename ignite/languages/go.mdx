@@ -1,0 +1,17 @@
+---
+title: 'Go'
+description: 'Deploy Golang applications with Hop'
+---
+
+<Snippet file="nixpacks-notice.mdx" />
+
+Golang is detected when you have a `main.go` file in your project root. If a `go.mod` file is found, packages are installed with `go get`. Hop uses `go build` to compile your application, then executes the resulting binary.
+
+## Versions
+
+The version is parsed from the `go.mod` file.
+
+The following Go versions are available:
+
+- 1.18
+- 1.17 (**default**)
