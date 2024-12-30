@@ -1,3 +1,8 @@
 # Table of contents
 
-* [Page](README.md)
+* [Introdução](README.md)
+
+## scripts
+
+* [Baque](scripts/baque/README.md)
+  * [Configuração](scripts/baque/configuracao.md)
