@@ -16,7 +16,6 @@ Sistema de invasão e baque\
 Sistema de alianças\
 Painel para administração\
 Diferentes modos de iniciar (Comando, Automatico e Marker)\
-Sistema de capturar bandeira\
 Anti combatlog\
 Ranking de organizações\
 Ranking de players\
