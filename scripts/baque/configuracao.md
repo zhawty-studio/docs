@@ -37,6 +37,7 @@ Configurações para alterar as regras de funcionamento da resource.
 Configurações para editar valores exibidos na interface.
 
 * `MainColor` - Um valor RGB em formato de `string` por exemplo: `255, 36, 98`.
+* `DisableNotifyKill` - Desabilita as notificações de kill.
 
 ## Áreas
 
